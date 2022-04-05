@@ -36,6 +36,7 @@ ESGame has few parameters
 |facebook_app_id|`Facebook app id`            |ESGame|
 |facebook_client_token|`Facebook client token`            |ESGame|
 |fb_login_protocol_scheme|`Facebook protocol scheme (format fb+facebook_app_id, for example fb11111111111 )`            |ESGame|
+
 Open esgameparameters.xml and edit it , then run application.
 # AndroidManifest.xml
 You need modify some attributes in androidmanifest.xml
