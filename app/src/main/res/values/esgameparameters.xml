@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">ESGAME SDK</string>
     <string name="app_flyer_dev_key" translatable="false"></string>
-    <integer name="es_client_id"  translatable="false"></integer>
+    <integer name="es_client_id"  translatable="false">0</integer>
     <string name="es_client_secret" translatable="false" ></string>
     <string name="gg_client_id"  translatable="false"></string>
 
