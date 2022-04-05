@@ -22,7 +22,7 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-                <data android:scheme="haivuong" android:host="payment" android:pathPattern=".*"/>
+                <data android:scheme="schema" android:host="payment" android:pathPattern=".*"/>
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>

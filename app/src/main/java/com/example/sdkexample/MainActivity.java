@@ -45,8 +45,6 @@ public class MainActivity extends Activity implements ESGameCallback {
         login = findViewById(R.id.login);
         tvStatus = findViewById(R.id.tvStatus);
         initView();
-//        ESGameSDK.getInstance().showPopUp(true,"a");
-//        ESGameSDK.getInstance().showLoading(true);
     }
 
     @Override
@@ -87,8 +85,6 @@ public class MainActivity extends Activity implements ESGameCallback {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        NSFacebookLogin.getInstance().onActivityResult(requestCode, resultCode, data);
-        NSGoogleLogin.getInstance().onActivityResult(requestCode, resultCode, data);
         ESGameSDK.getInstance().onActivityResult(requestCode, resultCode, data);
     }
 
