@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     package="com.example.sdkexample">
 
     <application
@@ -8,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/ESGameAppTheme">
         <meta-data android:name="AF_STORE" android:value="apk"/>
         <meta-data android:name="CHANNEL" android:value="apk"/>
         <activity android:name=".MainActivity"
