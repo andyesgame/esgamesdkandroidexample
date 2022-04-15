@@ -33,7 +33,7 @@ ESGame has few parameters
 |app_flyer_dev_key|`Appsflyer development key`            |ESGame|
 |es_client_id|`Esgame client id`            |ESGame|
 |es_client_secret|`Esgame client secret`            |ESGame|
-|gg_client_id|`Google client id, we can get it from google json file`            |ESGame|
+|gg_client_id|`Google client id, we can get it from google json file with client_type 3`            |ESGame|
 |facebook_app_id|`Facebook app id`            |ESGame|
 |facebook_client_token|`Facebook client token`            |ESGame|
 |fb_login_protocol_scheme|`Facebook protocol scheme (format fb+facebook_app_id, for example fb11111111111 )`            |ESGame|
