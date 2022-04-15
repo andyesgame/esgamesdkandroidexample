@@ -57,7 +57,6 @@ public class MainActivity extends Activity implements ESGameCallback {
 
     private void initView() {
         ESGameSDK.init(this, this);
-        ESGameSDK.getInstance().checkSessionUser();
         ESGameSDK.getInstance().handleIntent(getIntent());
 
         btnBilling.setOnClickListener(view -> {
