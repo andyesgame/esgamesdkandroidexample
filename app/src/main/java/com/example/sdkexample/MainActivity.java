@@ -71,7 +71,7 @@ public class MainActivity extends Activity implements ESGameCallback {
 
         btnBillingWeb.setOnClickListener(view -> ESGameSDK.getInstance().inAppBillingWeb("vnpay_4750", "formal", "1234", UUID.randomUUID().toString()));
 
-        login.setOnClickListener(view -> ESGameSDK.getInstance().checkSessionUser());
+        login.setOnClickListener(view -> ESGameSDK.getInstance().login());
 
         btnLogout.setOnClickListener(view -> ESGameSDK.getInstance().logout());
     }
