@@ -67,9 +67,10 @@ Init sdk:
     protected void onCreate(Bundle var1) {  
     this.requestWindowFeature(1);  
 	 super.onCreate(var1);  
-	 setContentView(R.layout.floating_button_wrapper);  
+	 ...
 	 ESGameSDK.init(this, this);  
 	 ESGameSDK.getInstance().handleIntent(getIntent());  
+	 ...
 	}
 	@Override  
 	protected void onDestroy() {  
