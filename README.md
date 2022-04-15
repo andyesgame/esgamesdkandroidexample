@@ -50,7 +50,7 @@ You need modify some attributes in androidmanifest.xml
     <meta-data android:name="AF_STORE" android:value="apk"/>  
 <meta-data android:name="CHANNEL" android:value="apk"/>
 
-Change two meta-data value. It's appsflyer's meta-data setting.
+Change two meta-data value. It's appsflyer's meta-data setting (only for third-party store).
 
 
 # Intergration
