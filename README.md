@@ -1,4 +1,5 @@
 
+
 # ESGame Android SDK !
 
 This document demonstrades ESGame SDK for android.
@@ -161,5 +162,13 @@ Web payment method.
 |server_id|String            |Server' identifier|
 |player_id|String            |ESGame Player's identifier|
 |extra_data|String            |ESGame Transaction's information|
-```
+
+ 
   
+-  ESGameSDK.getInstance().trackingEvent(eventName,eventData);
+	Send tracking analystic event
+	
+|Property               |Type                          |Description                         |
+|----------------|-------------------------------|-----------------------------|
+|eventName|String            |event's identifier|
+|eventData|eventData            |Server' data|	
