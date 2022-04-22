@@ -20,7 +20,6 @@ SDK provide some functionality below:
 - Log-in with Facebook
 - Log-in with Google
 - Google in-app billing
-- Apple in-app purchase
 - Third-party payment (should only use with non Google version)
 - Analystic ( Firebase, Facebook, Appslyer)
 
