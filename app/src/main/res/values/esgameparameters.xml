@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name" translatable="false">ESGAME SDK</string>
-    <string name="app_flyer_dev_key" translatable="false"></string>
-    <integer name="es_client_id"  translatable="false">0</integer>
-    <string name="es_client_secret" translatable="false" ></string>
-    <string name="gg_client_id"  translatable="false"></string>
+    <string name="app_flyer_dev_key" translatable="false">XKkjuxUroDkWpjxZ2Xs7nh</string>
+    <integer name="es_client_id"  translatable="false">13</integer>
+    <string name="es_client_secret" translatable="false" >QY4t2HJy4jdv4aTZp2a4zqC5cqy1X0MQpZs9f0Q7</string>
+    <string name="gg_client_id"  translatable="false">1034628364602-k95psg8p6m6bse4elkdbt5cvbvgv3p29.apps.googleusercontent.com</string>
 
-    <string name="facebook_app_id" translatable="false"></string>
-    <string name="facebook_client_token" translatable="false"></string>
-    <string name="fb_login_protocol_scheme" translatable="false"></string>
+    <string name="facebook_app_id" translatable="false">682118789108627</string>
+    <string name="facebook_client_token" translatable="false">a07fe3ff251bc1e3b00320f5de70c2a2</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb682118789108627</string>
 
 
 </resources>
