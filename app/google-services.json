@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1034628364602:android:6397c6efcee3279b477803",
         "android_client_info": {
-          "package_name": "vn.esgame.bachluyenthanhthan"
+          "package_name": "vn.esgame.sdk.example"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1034628364602-8dima8ji9d5hjkh3mq1qmjcackfrhunk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "vn.esgame.bachluyenthanhthan",
+            "package_name": "vn.esgame.sdk.example",
             "certificate_hash": "dbe90bf32b81d259489b59a88d36963662060b4e"
           }
         },
@@ -51,7 +51,7 @@
               "client_id": "1034628364602-0sbkc4vbcrp2uj1cpedbfroj8f89vv51.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "vn.esgame.bltt",
+                "bundle_id": "vn.esgame.sdk.example",
                 "app_store_id": "1537224599"
               }
             }

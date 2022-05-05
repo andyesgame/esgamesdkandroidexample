@@ -53,15 +53,23 @@ public class MainActivity extends Activity implements ESGameCallback {
         ESGameSDK.getInstance().handleIntent(intent);
     }
 
-    String productID = "vn.esgame.bltt_gp_zhichonglibao2_00229";
-    String productIDWeb = "vn.esgame.bltt_web_gold_00020";
+    String productID = "";
+    String productIDWeb = "";
     String serverId = "1";
 
     private void initView() {
         ESGameSDK.init(this, this);
+        /**
+         * only set sandbox if you want to test
+         */
+        if(BuildConfig.DEBUG)
         ESGameSDK.getInstance().setSandBox(true);
         ESGameSDK.getInstance().handleIntent(getIntent());
 
+        /**
+         * option, call login when application start ,
+         */
+        ESGameSDK.getInstance().login();
         btnBilling.setOnClickListener(view -> {
                     // ESGameSDK.getInstance().showWebSupportPage();
 //            ESGameSDK.getInstance().inAppBilling(productID,"test", "1234","extra_data");

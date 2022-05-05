@@ -16,7 +16,7 @@ android {
     defaultConfig {
 //        applicationId "com.ltl.myapplication3"
 //        applicationId "vn.esgame.sdk.game.gamt"
-        applicationId "vn.esgame.bachluyenthanhthan"
+        applicationId "vn.esgame.sdk.example"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -26,21 +26,17 @@ android {
     }
     signingConfigs{
         releaseConfig {
-//            storeFile file("./key/esgamesdksign.jks")
-            storePassword "esgamebltt"
-            keyAlias "bachluyenthanhthan"
-            keyPassword "esgamebltt"
-            storeFile file("./key/ESGame-BachLuyenThanhThan.jks")
+        storeFile file("./key/esgamesdksign.jks")
+            storePassword "esgamesdk2020"
+            keyAlias "esgame"
+            keyPassword "esgamesdk2020"
         }
         debug {
-//            storeFile file("./key/esgamesdksign.jks")
-//            storePassword "esgamesdk2020"
-//            keyAlias "esgame"
-//            keyPassword "esgamesdk2020"
-                        storeFile file("./key/ESGame-BachLuyenThanhThan.jks")
-            storePassword "esgamebltt"
-            keyAlias "bachluyenthanhthan"
-            keyPassword "esgamebltt"
+            storeFile file("./key/esgamesdksign.jks")
+            storePassword "esgamesdk2020"
+            keyAlias "esgame"
+            keyPassword "esgamesdk2020"
+
         }
     }
     buildTypes {
