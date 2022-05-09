@@ -59,11 +59,6 @@ public class MainActivity extends Activity implements ESGameCallback {
 
     private void initView() {
         ESGameSDK.init(this, this);
-        /**
-         * only set sandbox if you want to test
-         */
-        if(BuildConfig.DEBUG)
-        ESGameSDK.getInstance().setSandBox(true);
         ESGameSDK.getInstance().handleIntent(getIntent());
 
         /**
