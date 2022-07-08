@@ -26,7 +26,7 @@ android {
     }
     signingConfigs{
         releaseConfig {
-            storeFile file("./key/esgamesdksign.jks")
+        storeFile file("./key/esgamesdksign.jks")
             storePassword "esgamesdk2020"
             keyAlias "esgame"
             keyPassword "esgamesdk2020"
@@ -36,6 +36,7 @@ android {
             storePassword "esgamesdk2020"
             keyAlias "esgame"
             keyPassword "esgamesdk2020"
+
         }
     }
     buildTypes {

@@ -1,4 +1,5 @@
 
+
 # ESGame Android SDK !
 
 This document demonstrades ESGame SDK for android.
@@ -20,7 +21,6 @@ SDK provide some functionality below:
 - Log-in with Facebook
 - Log-in with Google
 - Google in-app billing
-- Apple in-app purchase
 - Third-party payment (should only use with non Google version)
 - Analystic ( Firebase, Facebook, Appslyer)
 
@@ -162,5 +162,13 @@ Web payment method.
 |server_id|String            |Server' identifier|
 |player_id|String            |ESGame Player's identifier|
 |extra_data|String            |ESGame Transaction's information|
-```
+
+ 
   
+-  ESGameSDK.getInstance().trackingEvent(eventName,eventData);
+	Send tracking analystic event
+	
+|Property               |Type                          |Description                         |
+|----------------|-------------------------------|-----------------------------|
+|eventName|String            |event's identifier|
+|eventData|eventData            |Server' data|	

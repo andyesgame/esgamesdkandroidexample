@@ -53,22 +53,28 @@ public class MainActivity extends Activity implements ESGameCallback {
         ESGameSDK.getInstance().handleIntent(intent);
     }
 
-    String productID = "com.userjoy.sgc.vinn_yuanbao01";
+    String productID = "";
+    String productIDWeb = "";
+    String serverId = "1";
 
     private void initView() {
         ESGameSDK.init(this, this);
         ESGameSDK.getInstance().handleIntent(getIntent());
 
+        /**
+         * option, call login when application start ,
+         */
+        ESGameSDK.getInstance().login();
         btnBilling.setOnClickListener(view -> {
                     // ESGameSDK.getInstance().showWebSupportPage();
 //            ESGameSDK.getInstance().inAppBilling(productID,"test", "1234","extra_data");
-                    ESGameSDK.getInstance().inAppBillingWithSkuType(productID, BillingClient.SkuType.INAPP, "1", "1234", "extra_data");
+                    ESGameSDK.getInstance().inAppBillingWithSkuType(productID, BillingClient.SkuType.INAPP, serverId, "1234", "extra_data");
 //            ESGameSDK.getInstance().inAppBilling(productID, "test", "1234","extra_data","{}");
 
                 }
         );
 
-        btnBillingWeb.setOnClickListener(view -> ESGameSDK.getInstance().inAppBillingWeb("vnpay_4750", "formal", "1234", UUID.randomUUID().toString()));
+        btnBillingWeb.setOnClickListener(view -> ESGameSDK.getInstance().inAppBillingWeb(productIDWeb, serverId, "1234", UUID.randomUUID().toString()));
 
         login.setOnClickListener(view -> ESGameSDK.getInstance().login());
 

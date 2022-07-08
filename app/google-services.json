@@ -1,58 +1,58 @@
 {
   "project_info": {
-    "project_number": "812939927546",
-    "firebase_url": "https://anhhungtamquoc-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "anhhungtamquoc",
-    "storage_bucket": "anhhungtamquoc.appspot.com"
+    "project_number": "1034628364602",
+    "firebase_url": "https://esgame-bltt-293803.firebaseio.com",
+    "project_id": "esgame-bltt-293803",
+    "storage_bucket": "esgame-bltt-293803.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:812939927546:android:c1daff69e4f2c0c1f90e43",
+        "mobilesdk_app_id": "1:1034628364602:android:6397c6efcee3279b477803",
         "android_client_info": {
           "package_name": "vn.esgame.sdk.example"
         }
       },
       "oauth_client": [
         {
-          "client_id": "812939927546-k2qqn5jg6ppaju34pb2npao82jvpk0co.apps.googleusercontent.com",
+          "client_id": "1034628364602-8dima8ji9d5hjkh3mq1qmjcackfrhunk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.userjoy.sgc.vinn",
-            "certificate_hash": "bbd8cd86ea3eec1197c45597d1f00daed73da2ef"
+            "package_name": "vn.esgame.sdk.example",
+            "certificate_hash": "dbe90bf32b81d259489b59a88d36963662060b4e"
           }
         },
         {
-          "client_id": "812939927546-mvc5nccd56siptilk5hl7cil8hdroh0u.apps.googleusercontent.com",
+          "client_id": "1034628364602-lf60ieaf0odubuag8a9nbrl36251ine4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.userjoy.sgc.vinn",
-            "certificate_hash": "4610836c6a5e78a4b2aca154b605f65b88b1565a"
+            "package_name": "vn.esgame.bachluyenthanhthan",
+            "certificate_hash": "a22e6e2e2672d6a4e27166a83e4dec165792ea7c"
           }
         },
         {
-          "client_id": "812939927546-4h3i54aa06egcthg3feohts95v2jvt6u.apps.googleusercontent.com",
+          "client_id": "1034628364602-k95psg8p6m6bse4elkdbt5cvbvgv3p29.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB-2cYCoB4Wvc7pcIPGS9uagyolYNdPm9s"
+          "current_key": "AIzaSyBJrMMkFcTqfQ0DHzm4IUCJyKYTzra2Tgs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "812939927546-4h3i54aa06egcthg3feohts95v2jvt6u.apps.googleusercontent.com",
+              "client_id": "1034628364602-k95psg8p6m6bse4elkdbt5cvbvgv3p29.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "812939927546-2arjg73svbqflio9ujgihi3kvujsqh33.apps.googleusercontent.com",
+              "client_id": "1034628364602-0sbkc4vbcrp2uj1cpedbfroj8f89vv51.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "vn.esgame.ahtq",
-                "app_store_id": "1551270810"
+                "bundle_id": "vn.esgame.sdk.example",
+                "app_store_id": "1537224599"
               }
             }
           ]
